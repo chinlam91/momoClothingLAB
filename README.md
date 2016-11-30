@@ -12,5 +12,11 @@ Welcome to join our _family_.
   * FrameWork - [ReactJS](https://facebook.github.io/react/)
   * Multi Language - [i18next](http://i18next.com/docs/api/)
  * Backend
-  * Tomcat 
-  * Express
+  * Tomcat  
+  * Express   
+Build  
+Node.js v6.9.1  
+NPM 3.10.9  
+```Install
+npm install –g babel-cli bower grunt-cli webpack
+```
