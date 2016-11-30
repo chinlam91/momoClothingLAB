@@ -1,0 +1,33 @@
+{
+	plugins: ['react'],
+	"parserOptions": {
+		"ecmaVersion":7,
+        "sourceType": "module",
+    	"ecmaFeatures": {
+      		"jsx": true,
+            "experimentalObjectRestSpread": true
+    	}
+  	},
+    "env": {
+        "browser": true,
+        "node": true
+    },
+    "globals":{
+        "$":true,
+        "jQuery":true
+    },
+  	"settings": {
+      	"react": {
+        	"pragma": "React",  // Pragma to use, default to "React"
+        	"version": "0.15.1" // React version, default to the latest React stable release
+      	}
+    },
+  	"extends": ["eslint:recommended","plugin:react/recommended"],
+  	"rules": {
+  		"no-console":"off",
+  		"no-mixed-spaces-and-tabs":"off",
+  		"react/prop-types":"warn",
+        "no-unused-vars":"warn",
+        "react/no-danger":"off"
+  	}
+}

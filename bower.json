@@ -1,0 +1,19 @@
+{
+  "name": "assets",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "~4.6.3",
+    "pure": "~0.6.0",
+    "normalize-css": "~4.1.1",
+    "jquery": "~3.0.0"
+  }
+}

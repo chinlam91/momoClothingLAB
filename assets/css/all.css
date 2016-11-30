@@ -1,0 +1,23 @@
+@charset "utf-8";
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 100px;
+  background-color: #FFFFFF;
+  color: #333333;
+  font-family: "Segoe UI", "微軟正黑體", "新細明體";
+  font-size: 1em;
+  min-width: 1230px;
+}
+
+.banner {
+  background: transparent url('/header.jpg') 0 0 no-repeat fixed;
+  text-align: center;
+  background-size: cover;
+  /*filter: blur(5px);*/
+  /*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true',src='/header.jpg', sizingMethod='scale');*/
+  height: 500px;
+  width: 100%;
+  display: table;
+}
